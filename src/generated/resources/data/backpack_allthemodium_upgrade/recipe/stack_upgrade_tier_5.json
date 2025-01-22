@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "allthemodium:allthemodium_block"
+    },
+    "S": {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_4"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ASA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "backpack_allthemodium_upgrade:stack_upgrade_tier_5"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "backpack_allthemodium_upgrade:stack_upgrade_tier_6"
+    },
+    "U": {
+      "item": "allthemodium:unobtainium_block"
+    }
+  },
+  "pattern": [
+    "UUU",
+    "USU",
+    "UUU"
+  ],
+  "result": {
+    "count": 1,
+    "id": "backpack_allthemodium_upgrade:stack_upgrade_tier_7"
+  }
+}
