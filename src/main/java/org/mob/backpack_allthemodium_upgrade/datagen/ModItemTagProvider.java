@@ -1,4 +1,4 @@
-package org.zombie.backpack_allthemodium_upgrade.datagen;
+package org.mob.backpack_allthemodium_upgrade.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -6,7 +6,7 @@ import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
-import org.zombie.backpack_allthemodium_upgrade.Backpack_allthemodium_upgrade;
+import org.mob.backpack_allthemodium_upgrade.Backpack_allthemodium_upgrade;
 
 import java.util.concurrent.CompletableFuture;
 

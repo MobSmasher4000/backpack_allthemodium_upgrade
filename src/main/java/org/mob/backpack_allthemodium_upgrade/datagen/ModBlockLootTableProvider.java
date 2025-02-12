@@ -1,4 +1,4 @@
-package org.zombie.backpack_allthemodium_upgrade.datagen;
+package org.mob.backpack_allthemodium_upgrade.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;

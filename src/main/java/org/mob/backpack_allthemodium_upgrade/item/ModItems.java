@@ -1,11 +1,11 @@
-package org.zombie.backpack_allthemodium_upgrade.item;
+package org.mob.backpack_allthemodium_upgrade.item;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import org.zombie.backpack_allthemodium_upgrade.Backpack_allthemodium_upgrade;
+import org.mob.backpack_allthemodium_upgrade.Backpack_allthemodium_upgrade;
 import net.p3pp3rf1y.sophisticatedbackpacks.Config;
 import net.p3pp3rf1y.sophisticatedcore.upgrades.stack.StackUpgradeItem;
 

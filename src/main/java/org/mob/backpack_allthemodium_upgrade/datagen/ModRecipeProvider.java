@@ -1,4 +1,4 @@
-package org.zombie.backpack_allthemodium_upgrade.datagen;
+package org.mob.backpack_allthemodium_upgrade.datagen;
 
 import com.thevortex.allthemodium.registry.ModRegistry;
 import net.minecraft.core.HolderLookup;
@@ -10,7 +10,7 @@ import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import org.jetbrains.annotations.NotNull;
-import org.zombie.backpack_allthemodium_upgrade.item.ModItems;
+import org.mob.backpack_allthemodium_upgrade.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
 
