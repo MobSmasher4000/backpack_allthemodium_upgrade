@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "c:leathers"
+    },
+    "S": {
+      "tag": "c:strings"
+    },
+    "U": {
+      "item": "storage_allthemodium_upgrade:stack_upgrade_tier_6"
+    }
+  },
+  "pattern": [
+    "SUS",
+    "ULU",
+    "S S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "backpack_allthemodium_upgrade:stack_upgrade_tier_5"
+  }
+}
