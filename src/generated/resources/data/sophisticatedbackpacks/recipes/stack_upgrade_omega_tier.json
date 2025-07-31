@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:stack_upgrade_omega_tier"
+    }
+  ],
+  "key": {
+    "S": {
+      "item": "backpack_allthemodium_upgrade:stack_upgrade_tier_7"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_omega_tier"
+  }
+}
