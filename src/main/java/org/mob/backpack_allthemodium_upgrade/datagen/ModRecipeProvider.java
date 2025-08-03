@@ -82,7 +82,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_leather", has(Tags.Items.LEATHERS))
                 .save(recipeOutput,"backpack_stack_upgrade_tier_7_from_storage_stack_upgrade_tier_8");
 
-        ShapeBasedRecipeBuilder.shaped(net.p3pp3rf1y.sophisticatedstorage.init.ModItems.STACK_UPGRADE_OMEGA_TIER.get())
+        ShapeBasedRecipeBuilder.shaped(net.p3pp3rf1y.sophisticatedbackpacks.init.ModItems.STACK_UPGRADE_OMEGA_TIER.get())
                 .pattern("SSS")
                 .pattern("SSS")
                 .pattern("SSS")
