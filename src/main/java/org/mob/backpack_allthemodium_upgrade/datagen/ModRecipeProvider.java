@@ -10,6 +10,8 @@ import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
+import net.p3pp3rf1y.sophisticatedbackpacks.SophisticatedBackpacks;
+import net.p3pp3rf1y.sophisticatedcore.crafting.ShapeBasedRecipeBuilder;
 import org.jetbrains.annotations.NotNull;
 import org.mob.backpack_allthemodium_upgrade.item.ModItems;
 
@@ -79,5 +81,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('U', org.mob.storage_allthemodium_upgrade.item.ModItems.STORAGE_STACK_UPGRADE_TIER_8.get())
                 .unlockedBy("has_leather", has(Tags.Items.LEATHERS))
                 .save(recipeOutput,"backpack_stack_upgrade_tier_7_from_storage_stack_upgrade_tier_8");
+
+        ShapeBasedRecipeBuilder.shaped(net.p3pp3rf1y.sophisticatedstorage.init.ModItems.STACK_UPGRADE_OMEGA_TIER.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.STACK_UPGRADE_TIER_7.get())
+                .unlockedBy("has_stack_upgrade_tier_7", has(ModItems.STACK_UPGRADE_TIER_7.get()))
+                .save(recipeOutput, SophisticatedBackpacks.getRL("stack_upgrade_omega_tier"));
+
+
     }
 }

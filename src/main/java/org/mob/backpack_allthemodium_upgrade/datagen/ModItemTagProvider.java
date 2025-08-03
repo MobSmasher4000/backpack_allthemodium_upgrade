@@ -5,6 +5,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.p3pp3rf1y.sophisticatedbackpacks.init.ModItems;
 import org.jetbrains.annotations.Nullable;
 import org.mob.backpack_allthemodium_upgrade.Backpack_allthemodium_upgrade;
 
@@ -17,6 +18,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        this.tag(ModItems.BACKPACK_UPGRADE_TAG)
+                .add(org.mob.backpack_allthemodium_upgrade.item.ModItems.STACK_UPGRADE_TIER_5.get(),
+                        org.mob.backpack_allthemodium_upgrade.item.ModItems.STACK_UPGRADE_TIER_6.get(),
+                        org.mob.backpack_allthemodium_upgrade.item.ModItems.STACK_UPGRADE_TIER_7.get()
+                );
 
     }
 }
